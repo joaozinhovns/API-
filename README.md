@@ -1,2 +1,66 @@
 # API-
 Primeira apresentação de integração    
+
+
+# Índice
+* [Objetivo do Projeto](#objetivo-do-projeto)
+* [Equipe](#Equipe)
+* [Backlog do produto](#Product-Backlog)
+* [Competências desenvolvidas](#competências-desenvolvidas)
+* [Registro das Sprints](#Registro-das-Sprints)
+
+
+# Projeto (API) 
+Este projeto é desenvolver uma plataforma de dashboard que permita visualizar informações sobre o desempenho dos Transportes de Produtos Químicos Perigosos ou Combustível cargas perigosa em todo território Nacional referente aos anos de 2021 a 2024 e a estatística de acidentes e os principais locais com maiores incidências de acidentes no Estado de São Paulo dos anos de 2018 a 2025. Essa ferramenta fornecerá aos tomadores de decisão em politicas publicas dados claros e acessíveis, permitindo a identificação de falhas em rodovias.
+
+# Objetivo do Projeto
+O objetivo deste projeto é desenvolver uma plataforma de dashboard que possibilite a visualização e análise do desempenho do transporte de cargas de Produtos Químicos e Combustíveis em todo o território nacional, utilizando como base os dados abertos do IBAMA referentes ao período de 2021 a 2024 e  a estatística de acidentes e os principais locais com maiores incidências de acidentes no Estado de São Paulo através base de dados do RENAEST dos anos de 2018 a 2025 ambas bases foram filtradas no Python.
+* Apresentar visualmente os principais dados filtrados.
+* Comparar erros e falhas . 
+* Permitir segmentação por filtros interativos: produto, origem e destino, ano. 
+
+# Equipe
+|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
+| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Product Owner | Fabiano Almeida |     [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiano-almeida-854646386/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fabiano1301).
+| Scrum Master  | Willian Pierre |     [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willian-pierre-medeiros-726137373/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/willianPierre/log_inf)     |
+| Team Member   | Cristovão de Paula Ferreira Junior |         [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristovao-de-paula-ferreira-junior-a11685b4/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/minhosinho)        |
+|  Team Member  | Idalice Godoi |   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/idalice-godoi-248b05315/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IdaliceJD)        |
+|  Team Member  | João Paulo da Silva | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-paulo-da-silva-8017a5303/?originalSubdomain=br) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaozinhovns/log_inform-tica)
+|  Team Member  | Manoele Moraes |    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manoele-moraes-9b3345210/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manoelemoraes)
+|  Team Member  | Ribamar Barros| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ribamar-barros/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ribamar074)
+
+# Product Backlog
+| Rank | Prioridade | User Story                                                                                                                                              | Estimativa | Sprint |
+|------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
+| 1    | Alta       |✅️ Como tomador de decisão em políticas públicas, quero filtrar as cargas perigosas movimentadas do Brasil nos anos de 2021 até 2024, para reduzir riscos à saúde pública e ao meio ambiente, priorizando a fiscalização e a  prevenção de acidentes.                                               | 3 horas          | 1      |
+| 2    | Alta       |✅️ Como tomador de decisão em políticas públicas, quero visualizar os principais modais utilizados, para explorar um número maior de modais de transporte.                                                                 | 3 horas          | 1      |
+| 3    | Alta       |✅️ Como tomador de decisão em políticas públicas, quero filtrar as principais  origens e destinos, para análise de tendências de fluxos de transporte.                                             | 4 horas          | 1   |
+| 4    | Alta       |✅️ Como tomador de decisão em políticas públicas, quero visualizar as principais empresas movimentadoras de cargas, pois a declaração realizada, uma vez que se faz necessária uma credibilidade e transparência para as empresas que fazem esse tipo de movimentação de cargas.                                                                                                                                                   | 4 horas        | 1  |
+| 5   | Média     |✅️ Como tomador de decisão em políticas públicas, quero visualizar as estatísticas de acidentes por dia, para planejamento estratégico para a prevenção dos transportes.   | 3 horas          | 2    |
+| 6    | Média      |✅️ Como tomador de decisão em políticas públicas, quero visualizar as estatísticas de acidentes por semana (mostrando os principais dias da semana com mais acidentes), para planejamento estratégico para prevenção de paradas de descanso, pois é necessário para prevenção de acidentes                                                  | 6 horas          | 2     |
+| 7    | Média      |✅️ Como tomador de decisão em políticas públicas, quero visualizar as estatísticas de acidentes por mês, para planejamento estratégico para a prevenção dos transportes.                                                                | 6 horas         | 2      |
+| 8    | Média      |✅️ Como tomador de decisão em politicas publicas, quero as distâncias entre as localidades de maiores incidências de acidentes e os locais de paradas de descanso,pois e necessario para prevenção de acidentes.                                              | 6 horas          | 2      |
+| 9 | Baixa      |✅️ Como tomador de decisão em políticas públicas, quero saber a quantidade de acidentes ao longo do tempo(por anos), para que eu possa realizar mais ações para o planejamento de transporte.                                                                                                                                                   | 7 horas        | 2    |
+| 10  | Baixa      |✅️ Como tomador de decisão em políticas públicas, quero visualizar as principais rotas com maiores índices de acidentes viários, pois é necessário conhecer os locais mais perigosos para os transportes     | 7 horas          | 3      |
+| 11   | Baixa      |✅️ Como tomador de decisão em políticas públicas, quero visualizar a integração da base de dados do IBAMA com base do RENAEST, para um maior entendimento do projeto  | 7 horas          | 3      |
+
+
+## Tecnologias Utilizadas
+
+* Jira Software
+* Power BI
+* Microsoft Excel
+* Comunidade de Whatsapp
+* Python (Colab)
+*  Canva
+
+  
+# Registro das Sprints
+
+| Sprint            | Previsão   | Status   | Histórico |
+|-------------------|------------|----------|-----------|
+| 01                | 01/10/2025 | Feito  | [MVP](MVP/sp1.md)  |
+| 02                | 29/10/2025 | Feito  | [MVP](MVP/sp2.md)  |
+| 03                | 28/11/2025 | Feito | [MVP](MVP/sp3.md)  |
+| Feira de Soluções | 04/12/2025 |  Em Andamento  | [MVP](#)  |
